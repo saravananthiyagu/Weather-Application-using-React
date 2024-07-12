@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.search input{
+  border-radius: 40px;
+  padding-left: 30px;
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.search button{
+  border-radius: 40px;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.search button:hover{
+  border-left: 0;
+  border-bottom: 0;
+  transition: 0.1s;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 200px;
+  font-size: 1.3rem;  
+}
+
+.data{
+  font-size: 1.5rem;
+}
+
